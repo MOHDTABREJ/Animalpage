@@ -1,0 +1,172 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.998));
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    color: rgb(0, 247, 255);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.logo span{
+
+    color: red;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 2rem;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.342);
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active{
+    background: rgba(255, 255, 255, 0.671);
+    color: #2b1055;
+
+}
+
+.im{
+    border-radius: 20% 30% 80% 20% ;
+    border: 2px solid rgb(0, 0, 0);
+    padding:0 0 50px 10px;
+    margin:0 40px;
+    display: flex;
+    align-items: end;
+    height: 30vh;
+    padding: 30vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.806),rgba(1, 13, 145, 0.674)), url(https://source.unsplash.com/900x900/?cute) no-repeat center center/cover;
+}
+.im h3{
+    padding: 13px;
+    color: rgba(235, 147, 247, 0.852);
+
+    border-radius: 9% 9% 0% 0%;
+}
+
+.P h1{
+    z-index: 1;
+}
+
+.cov{
+    height: 30vh;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #000000b4;
+}
+
+.first {
+    border-radius: 30%;
+    background: url(https://source.unsplash.com/300x300/?rabbit);
+    padding: 30px;
+    margin:0  30px;
+    border: 3px solid rgb(18, 0, 5);
+    width: 12rem;
+    border: 3px solid rgb(255, 255, 255);
+
+}
+.first H2{
+    color: white;
+}
+.second {
+    border-radius: 30%;
+    background: url(https://source.unsplash.com/300x300/?bird);
+    padding: 30px;
+    margin:0  30px;
+    border: 3px solid rgb(18, 0, 5);
+    width: 12rem;
+    border: 3px solid rgb(255, 255, 255);
+
+
+}
+.third {
+
+    border-radius: 30%;
+    background: url(https://source.unsplash.com/300x300/?deer);
+    padding: 30px;
+    margin:0  30px;
+    border: 3px solid rgb(255, 255, 255);
+    width: 12rem;
+}
+.third H2{
+    color: white;
+}
+.content{
+    display: flex;
+    padding: 40px;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://source.unsplash.com/300x300/?eagle) no-repeat center center/cover;
+}
+
+.mater{
+    padding: 60px;
+    border: 2px solid white;
+
+    width: 30%;
+}
+.mater2{
+    padding: 60px;
+    border: 2px solid white;
+    color: red;
+    width: 30%;
+}
+.mater4{
+    padding: 60px;
+    border: 2px solid white;
+    color: rgb(0, 255, 98);
+    width: 30%;
+}
+.mater h1{
+    color: white;
+}
+
+.CONTENTES{
+    padding: 20px;
+    height: 40vh;
+    display: flex;
+}
+.f{
+    padding: 40px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://source.unsplash.com/300x300/?animal) no-repeat center center/cover;
+}
+.CONTENTES p{
+    padding: 10px;
+    margin: 30px;
+    color: white;
+}
+.one{
+    color: white;
+}
+footer{
+    color: white;
+    background-color: rgb(195, 192, 192);
+}
